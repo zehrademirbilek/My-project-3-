@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3818711159949983164}
   - component: {fileID: 7746597237603056125}
   - component: {fileID: 4011252093887385938}
+  - component: {fileID: 925073208342487543}
   m_Layer: 8
   m_Name: Trap
   m_TagString: Untagged
@@ -144,6 +145,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 1
+--- !u!114 &925073208342487543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2918860926419753017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2b1989927270ac498907642fd3818b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DamageDealer
+  damageAmount: 1
+  destroyOnImpact: 0
 --- !u!1001 &88363044960772260
 PrefabInstance:
   m_ObjectHideFlags: 0
